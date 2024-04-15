@@ -10,8 +10,8 @@ services:
     environment:
       MONGO_URI: mongodb://tradenote:tradenote@mongo:27017/tradenote?authSource=admin
       TRADENOTE_DATABASE: tradenote
-      APP_ID: 123456
-      MASTER_KEY: 123456
+      APP_ID: cmfpkgom
+      MASTER_KEY: 87f3f37c-0734-4de3-8933-a08fb158f770
       TRADENOTE_PORT: 8080
   mongo:
     image: mongo:latest
